@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/crud.js"></script>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="forma_za_dodavanje">
+
+            <form action="">
+
+                <p>
+                    <label for="id">ID: </label>
+                    <input type="text" name='id' id="id">
+                </p>    
+
+                <p>
+                    <label for="naslov">Naslov: </label>
+                    <input type="text" name="naslov" id="naslov">
+                    <span id="naslov_greska">Naslov mora da ima makar 2 slova</span>
+                </p>
+
+                <p>
+                    <label for="glavni_glumac">Glavni glumac: </label>
+                    <input type="text" name="glavni_glumac" id="glavni_glumac">
+                    <span id="glumac_greska">Prvo slovo mora biti veliko! </span>
+                </p>
+
+                <p>
+                    <label for="godina">Godina: </label>
+                    <input type="number" name="godina" id="godina">
+                    <span id="godina_greska">Godina koju ste uneli nije ispravna</span>
+                </p>
+
+                <p>
+                    <label for="ocena">Ocena: </label>
+                    <input type="number" name="ocena" step="0.1" id="ocena">
+                    <span id="ocena_greska">Ocena mora biti izmedju 1 i 10</span>
+                </p>
+
+                <p>
+                    <label for="zanr">Zanr: </label>
+                    <input type="text" name="zanr" id="zanr">
+                    <span id="zanr_greska">Ne postoji zanr</span>
+                </p>
+
+                <button id="dodaj_film"> Dodaj film! </button>
+
+            </form>
+
+        </div>
+
+
+
+        <div class="donji">
+
+            <div class="za_prikaz">
+               
+                <table id="tabela" border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <th>ID</th>
+                        <th>Naslov</th>
+                        <th>Glavni glumac</th>
+                        <th>Godina</th>
+                        <th>Ocena</th>
+                        <th>Zanr</th>
+                        <th>Opcija za brisanje</th>
+                        <th>Opcija za azuriranje</th>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div id="za_update">
+
+
+            </div>
+
+
+
+
+        </div>
+
+        
+        
+
+
+
+
+    </div>
+    
+</body>
+</html>

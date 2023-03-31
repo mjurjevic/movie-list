@@ -1,0 +1,189 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form
+{
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f2f2f2; */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+
+label
+{
+    font-weight: bold;
+}
+
+.forma_za_dodavanje
+{
+    width: 100%;
+    padding: 3em;
+}
+
+form p 
+{
+    margin-top: 10px;
+    display: flex;
+    width: 40%;
+    padding: 2px;
+    
+}
+
+form p label
+{
+    margin-top: 5px;
+    text-align: center;
+    color: #f4f3f3;
+}
+
+form p label, form p input{
+    width: 27%;
+}
+
+form p input
+{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+button{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #424446;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left:19em
+}
+  
+button:hover {
+    background-color: #5f2c82;
+}
+.donji
+{
+    margin-top: 1em;
+    /* height: 40vh; */
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 100%;
+}
+
+.za_prikaz
+{
+    width: 60%;
+    padding: 1em;
+}
+
+table
+{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: #424446;
+}
+
+table tr th
+{
+    padding: 1em;
+    color: rgb(213, 213, 213);
+}
+
+#za_update
+{
+    width: 40%;
+    border: none;
+}
+
+#naslov_greska, #glumac_greska, #godina_greska,#ocena_greska,#zanr_greska
+{
+    display: none;
+}
+
+span{
+    color: red;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+.los_task{
+
+    color: red;
+    border-color: red;
+}
+
+.delete
+{
+    /* background-color: red; */
+    /* background-color: #49a09d; */
+    background-color: #49a09d;
+    color: black;
+    cursor:pointer
+}
+
+.delete:hover {
+    /* background-color: crimson; */
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+
+
+    color: black;
+}
+
+.update
+{
+    /* background-color: ; */
+    background-color: #49a09d;
+    color: black;
+    cursor:pointer
+    
+
+}
+.update:hover{
+    /* background-color: darkgreen; */
+    /* background-color: #5f2c82; */
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+    color: black;
+}
+
+.forma_za_update
+{
+    width: 100%;
+    border: none;
+    border: solid black thin;
+}
+
+#update_paragraf
+{
+    width: 100%;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
